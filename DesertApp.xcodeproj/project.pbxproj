@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC50378D1BB8CEF40026D025 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50378C1BB8CEF40026D025 /* Food.swift */; settings = {ASSET_TAGS = (); }; };
+		AC50378F1BB8D9F10026D025 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50378E1BB8D9F10026D025 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC6126961BB7B4CF00596CC5 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6126951BB7B4CF00596CC5 /* myCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ACAC13761BB7A0A30088C280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC13751BB7A0A30088C280 /* AppDelegate.swift */; };
+		ACAC137B1BB7A0A30088C280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAC13791BB7A0A30088C280 /* Main.storyboard */; };
+		ACAC137D1BB7A0A30088C280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAC137C1BB7A0A30088C280 /* Assets.xcassets */; };
+		ACAC13801BB7A0A30088C280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAC137E1BB7A0A30088C280 /* LaunchScreen.storyboard */; };
+		ACAC138B1BB7A0A30088C280 /* DesertAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC138A1BB7A0A30088C280 /* DesertAppTests.swift */; };
+		ACAC13961BB7A0A30088C280 /* DesertAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC13951BB7A0A30088C280 /* DesertAppUITests.swift */; };
+		ACAC13A41BB7A12C0088C280 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC13A31BB7A12C0088C280 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAC13871BB7A0A30088C280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAC136A1BB7A0A30088C280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAC13711BB7A0A30088C280;
+			remoteInfo = DesertApp;
+		};
+		ACAC13921BB7A0A30088C280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAC136A1BB7A0A30088C280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAC13711BB7A0A30088C280;
+			remoteInfo = DesertApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC50378C1BB8CEF40026D025 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AC50378E1BB8D9F10026D025 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC6126951BB7B4CF00596CC5 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		ACAC13721BB7A0A30088C280 /* DesertApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesertApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC13751BB7A0A30088C280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAC137A1BB7A0A30088C280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAC137C1BB7A0A30088C280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAC137F1BB7A0A30088C280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAC13811BB7A0A30088C280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAC13861BB7A0A30088C280 /* DesertAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesertAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC138A1BB7A0A30088C280 /* DesertAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertAppTests.swift; sourceTree = "<group>"; };
+		ACAC138C1BB7A0A30088C280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAC13911BB7A0A30088C280 /* DesertAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesertAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC13951BB7A0A30088C280 /* DesertAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertAppUITests.swift; sourceTree = "<group>"; };
+		ACAC13971BB7A0A30088C280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAC13A31BB7A12C0088C280 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAC136F1BB7A0A30088C280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC13831BB7A0A30088C280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC138E1BB7A0A30088C280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAC13691BB7A0A30088C280 = {
+			isa = PBXGroup;
+			children = (
+				ACAC13741BB7A0A30088C280 /* DesertApp */,
+				ACAC13891BB7A0A30088C280 /* DesertAppTests */,
+				ACAC13941BB7A0A30088C280 /* DesertAppUITests */,
+				ACAC13731BB7A0A30088C280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAC13731BB7A0A30088C280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC13721BB7A0A30088C280 /* DesertApp.app */,
+				ACAC13861BB7A0A30088C280 /* DesertAppTests.xctest */,
+				ACAC13911BB7A0A30088C280 /* DesertAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAC13741BB7A0A30088C280 /* DesertApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC13751BB7A0A30088C280 /* AppDelegate.swift */,
+				ACAC13A31BB7A12C0088C280 /* TableViewController.swift */,
+				AC50378E1BB8D9F10026D025 /* DetailViewController.swift */,
+				AC50378C1BB8CEF40026D025 /* Food.swift */,
+				AC6126951BB7B4CF00596CC5 /* myCell.swift */,
+				ACAC13791BB7A0A30088C280 /* Main.storyboard */,
+				ACAC137C1BB7A0A30088C280 /* Assets.xcassets */,
+				ACAC137E1BB7A0A30088C280 /* LaunchScreen.storyboard */,
+				ACAC13811BB7A0A30088C280 /* Info.plist */,
+			);
+			path = DesertApp;
+			sourceTree = "<group>";
+		};
+		ACAC13891BB7A0A30088C280 /* DesertAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC138A1BB7A0A30088C280 /* DesertAppTests.swift */,
+				ACAC138C1BB7A0A30088C280 /* Info.plist */,
+			);
+			path = DesertAppTests;
+			sourceTree = "<group>";
+		};
+		ACAC13941BB7A0A30088C280 /* DesertAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC13951BB7A0A30088C280 /* DesertAppUITests.swift */,
+				ACAC13971BB7A0A30088C280 /* Info.plist */,
+			);
+			path = DesertAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAC13711BB7A0A30088C280 /* DesertApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAC139A1BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertApp" */;
+			buildPhases = (
+				ACAC136E1BB7A0A30088C280 /* Sources */,
+				ACAC136F1BB7A0A30088C280 /* Frameworks */,
+				ACAC13701BB7A0A30088C280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesertApp;
+			productName = DesertApp;
+			productReference = ACAC13721BB7A0A30088C280 /* DesertApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAC13851BB7A0A30088C280 /* DesertAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAC139D1BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertAppTests" */;
+			buildPhases = (
+				ACAC13821BB7A0A30088C280 /* Sources */,
+				ACAC13831BB7A0A30088C280 /* Frameworks */,
+				ACAC13841BB7A0A30088C280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAC13881BB7A0A30088C280 /* PBXTargetDependency */,
+			);
+			name = DesertAppTests;
+			productName = DesertAppTests;
+			productReference = ACAC13861BB7A0A30088C280 /* DesertAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACAC13901BB7A0A30088C280 /* DesertAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAC13A01BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertAppUITests" */;
+			buildPhases = (
+				ACAC138D1BB7A0A30088C280 /* Sources */,
+				ACAC138E1BB7A0A30088C280 /* Frameworks */,
+				ACAC138F1BB7A0A30088C280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAC13931BB7A0A30088C280 /* PBXTargetDependency */,
+			);
+			name = DesertAppUITests;
+			productName = DesertAppUITests;
+			productReference = ACAC13911BB7A0A30088C280 /* DesertAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAC136A1BB7A0A30088C280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Digital Mirko";
+				TargetAttributes = {
+					ACAC13711BB7A0A30088C280 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					ACAC13851BB7A0A30088C280 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ACAC13711BB7A0A30088C280;
+					};
+					ACAC13901BB7A0A30088C280 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ACAC13711BB7A0A30088C280;
+					};
+				};
+			};
+			buildConfigurationList = ACAC136D1BB7A0A30088C280 /* Build configuration list for PBXProject "DesertApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAC13691BB7A0A30088C280;
+			productRefGroup = ACAC13731BB7A0A30088C280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAC13711BB7A0A30088C280 /* DesertApp */,
+				ACAC13851BB7A0A30088C280 /* DesertAppTests */,
+				ACAC13901BB7A0A30088C280 /* DesertAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAC13701BB7A0A30088C280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC13801BB7A0A30088C280 /* LaunchScreen.storyboard in Resources */,
+				ACAC137D1BB7A0A30088C280 /* Assets.xcassets in Resources */,
+				ACAC137B1BB7A0A30088C280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC13841BB7A0A30088C280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC138F1BB7A0A30088C280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAC136E1BB7A0A30088C280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC13761BB7A0A30088C280 /* AppDelegate.swift in Sources */,
+				AC50378D1BB8CEF40026D025 /* Food.swift in Sources */,
+				AC50378F1BB8D9F10026D025 /* DetailViewController.swift in Sources */,
+				AC6126961BB7B4CF00596CC5 /* myCell.swift in Sources */,
+				ACAC13A41BB7A12C0088C280 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC13821BB7A0A30088C280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC138B1BB7A0A30088C280 /* DesertAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC138D1BB7A0A30088C280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC13961BB7A0A30088C280 /* DesertAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAC13881BB7A0A30088C280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAC13711BB7A0A30088C280 /* DesertApp */;
+			targetProxy = ACAC13871BB7A0A30088C280 /* PBXContainerItemProxy */;
+		};
+		ACAC13931BB7A0A30088C280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAC13711BB7A0A30088C280 /* DesertApp */;
+			targetProxy = ACAC13921BB7A0A30088C280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAC13791BB7A0A30088C280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC137A1BB7A0A30088C280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAC137E1BB7A0A30088C280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC137F1BB7A0A30088C280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAC13981BB7A0A30088C280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACAC13991BB7A0A30088C280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAC139B1BB7A0A30088C280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesertApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAC139C1BB7A0A30088C280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesertApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACAC139E1BB7A0A30088C280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesertAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesertApp.app/DesertApp";
+			};
+			name = Debug;
+		};
+		ACAC139F1BB7A0A30088C280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesertAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesertApp.app/DesertApp";
+			};
+			name = Release;
+		};
+		ACAC13A11BB7A0A30088C280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesertAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesertApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACAC13A21BB7A0A30088C280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesertAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.DesertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesertApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAC136D1BB7A0A30088C280 /* Build configuration list for PBXProject "DesertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC13981BB7A0A30088C280 /* Debug */,
+				ACAC13991BB7A0A30088C280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAC139A1BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC139B1BB7A0A30088C280 /* Debug */,
+				ACAC139C1BB7A0A30088C280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAC139D1BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC139E1BB7A0A30088C280 /* Debug */,
+				ACAC139F1BB7A0A30088C280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAC13A01BB7A0A30088C280 /* Build configuration list for PBXNativeTarget "DesertAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC13A11BB7A0A30088C280 /* Debug */,
+				ACAC13A21BB7A0A30088C280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAC136A1BB7A0A30088C280 /* Project object */;
+}
